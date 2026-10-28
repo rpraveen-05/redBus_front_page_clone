@@ -1,0 +1,797 @@
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: 0%;
+        }
+        .main{
+            height: 700vh;
+        }
+        html{
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        .a{
+            background-color: antiquewhite;
+            height:10vh;
+            width: 100%;
+            
+        }
+        #a{
+            position: relative;
+            top: 13px;
+            left: 300px;
+            
+        }
+         .b{
+            position: relative;
+            top: 10px;
+            left: 320px;
+            
+        }
+         .c{
+            position: relative;
+             top: -70px;
+            left: 503px;
+            filter:brightness(0);
+           
+        }
+         .d{
+            position: relative;
+            top: -160px;
+            left: 600px;
+            filter: brightness(0%);
+            
+        }
+        #vv{
+            border: 1px solid transparent;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            top: -210px;
+            left: 70% ;
+        }
+        #v{
+            border: 1px solid transparent;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            top: -237px;
+            left: 77% ;
+        }
+        #vvv{
+            border: 1px solid transparent;
+            padding: 5px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            top: -263px;
+            left: 82.5% ;
+        }
+        #d{
+            position: relative;
+            top: -233px;
+            left: 80% ;
+        }
+        .c:hover{
+            filter: sepia(100%)saturate(500%)hue-rotate(320deg);
+        }
+        .d:hover{
+            filter: sepia(100%)saturate(500%)hue-rotate(320deg);
+        }
+        #c:hover{
+            color: red;
+        }
+        #e:hover{
+            color: red;
+        }
+       
+        #vv:hover{
+            background-color: lightgreen;
+        }
+        #v:hover{
+            background-color: lightgreen;
+        }
+        #vvv:hover{
+            background-color: lightgreen;
+        }
+       .inside{
+        background-color: whitesmoke;
+        width: 73vw;
+        height: 15vh;
+        border-radius:30px;
+        position: relative;
+        top:-80px;
+        left: 15%;
+        box-shadow: 10px 10px 10px;
+       }
+       .from{
+        position:relative;
+        top: 10px;
+        left: 20px;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 850px;
+        height: 70px;
+       }
+       #bus{
+        padding-top: 25px;
+        padding-left: 20px;
+       }
+       #hr{
+        position: relative;
+        top: -90px;
+        left: 150px;
+       }
+       #to{
+        position: relative;
+        top: -135px;
+        padding-left:190px;
+       }
+       #date{
+        position: relative;
+        top: -290px;
+        left: 40%;
+        color: black;
+       }
+       a{
+        text-decoration: none;
+       }
+       #tod{
+        background-color: bisque;
+        padding:7px;
+        position: relative;
+        top: -430px;
+        left: 650px;
+        color: black;
+        border-radius: 20px;
+       }
+       #tom{
+        background-color: bisque;
+        padding:7px;
+        position: relative;
+        top: -455px;
+        left: 720px;
+        color: black;
+        border-radius: 20px;
+       }
+       .women{
+        border: 1px solid;
+        width: 230px;
+        height: 70px;
+        position: relative;
+        top: -509px;
+        left: 865px;
+        border-radius:20px;
+       }
+       .se{
+        border: 1px solid transparent;
+        border-radius: 50px;
+        background-color: red;
+        color: white;
+        width: 250px;
+        height: 50px;
+        position: relative;
+        top: -10px;
+        left: -450px;
+       }
+       #al{
+        border: 1px solid transparent;
+        background-color: rgb(216, 137, 179);
+        padding: 10px;
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        top: 30px;
+        left: 200px;
+       }
+       #bu{
+        border: 1px solid;
+        padding: 10px;
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        top: 3px;
+        left: 280px;
+       }
+       #tr{
+        border: 1px solid;
+        padding: 10px;
+        color: black;
+        border-radius: 10px;
+        position: relative;
+        top: -23px;
+        left: 360px;
+       }
+       #bu:hover{
+        background-color: rgb(210, 193, 193);
+       }
+       #tr:hover{
+        background-color: rgb(210, 193, 193);
+       }
+       #tag{
+        padding: 5px;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        position: relative;
+        top: -125px;
+        left: 220px;
+
+       }
+      
+       #pom{
+        padding: 5px;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        position: relative;
+        top: -145px;
+        left: 220px;
+       }
+
+       #er{
+        padding: 5px;
+        color: black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        position: relative;
+        top: -210px;
+        left: 220px;
+       }
+
+       .b1{
+        margin-left: 330px;
+        margin-top: -290px;
+       }
+
+       .b2{
+        margin-left: 650px;
+        margin-top: -320px;
+       }
+
+       .b3{
+        margin-left: 970px;
+        margin-top: -320px;
+       }
+
+       .b4{
+        margin-left: 1290px;
+        margin-top: -320px;
+       }
+
+       .overx{ 
+        padding: 10px 2%;
+        width: 100%;
+        height: 350px;
+        overflow-x: auto;  
+        overflow-y: hidden;
+        flex-direction: row; 
+        scrollbar-width: none;  
+       }
+
+       #vi:hover{
+        background-color: aqua;
+        border-radius: 15px;
+       }
+
+       .travel{
+       margin-top: -110px;
+       display: flex; 
+       justify-content: center;
+       background-color: aquamarine;
+       height: 30vh;
+       padding: 50px;
+       }
+
+       .travel img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        display: block;
+        color: black;
+        border-radius: 10px;
+       }
+
+       #ot{
+        padding: 5px;
+        border: 1px solid transparent;
+        height: 130px;
+        width: 110px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        transform: rotate(-10deg);
+        filter: saturate(200%);
+       }
+
+       #my{
+        padding: 5px;
+        border: 1px solid transparent;
+        height: 130px;
+        width: 110px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        transform: rotate(-3deg);
+        position: relative;
+        right: 25px;       
+       }
+
+       #kod{
+        padding: 5px;
+        border: 1px solid transparent;
+        height: 130px;
+        width: 110px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        position: relative;
+        right:40px;
+        transform: rotate(3deg);
+        filter: saturate(200%);
+       }
+
+       #tir{
+        padding: 5px;
+        border: 1px solid transparent;
+        height: 130px;
+        width: 110px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        transform: rotate(10deg);
+        position: relative;
+        right: 60px;
+        filter: saturate(200%);
+       }
+       .travel a{
+        color: black;
+       }
+
+       #ex{
+        padding: 10px 50px 10px 50px;
+        text-align: center;
+        background-color: antiquewhite;
+        border-radius: 20px;
+       }    
+
+       .trnow{
+        border: 1px solid transparent;
+        width: 70%;
+        height: 150px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: whitesmoke;
+       }
+
+       .cal1{
+        border: 1px solid;
+        border-color: orange red blue;
+        border-radius: 20px;
+        width: 180px;
+        height: 65px;
+        position: relative;
+        left: 330px;
+        top: -75px;
+       }
+
+       #di{
+
+        animation-name: a;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        position: relative;
+        top: 0px;
+       }
+
+       @keyframes a {
+        to{
+             top: 10px;
+             opacity: 0;
+        }
+       }
+        .cal2{
+        border: 1px solid;
+        border-color:blue;
+        border-radius: 20px;
+        width: 180px;
+        height: 65px;
+        position: relative;
+        left: 550px;
+        top: -140px;
+       }
+       #btn{
+        width: auto;
+        height: auto;
+        background-color: bisque;
+        padding: 10px 50px 10px 50px;
+        border-radius: 20px;
+        color: black;
+        position: relative;
+        top: -190px;
+        left: 800px;
+       }
+       #btm{
+        position: relative;
+        top: -170px;
+        left: 840px;
+        font-size: 13px;
+       }
+        .win{
+        padding: 10px 5%;
+       }
+        .win1{
+       display: flex;
+       overflow-x: auto;
+       scrollbar-width: none;
+       padding: 10px 10% 0px;
+       gap: 20px;
+       } 
+       .win img{
+        width:300px;
+        height: 170px;
+        border-radius: 20px;
+        object-fit: cover;
+        display: block;
+       }
+
+       .gov{
+        overflow-x:hidden;
+        overflow-y: hidden;
+        flex-direction: row;
+        scrollbar-width: none;
+       }
+       .ap{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        position: relative;
+        left: 200px;
+        width:300px;
+        height: 250px;
+        border-color: white;
+        background-color:rgb(179, 81, 81);
+       }
+       .ap1{
+        border: 1px solid transparent;
+        border-radius: 20px;
+        position: relative;
+        width:300px;
+        height: 220px;
+        border-color: black;
+        background-color: white;
+       }
+       #ofp{
+        margin-top: -80px;
+       background-color: gray;
+       border-radius: 10px;
+       width: 250px;
+       height: 30px;
+       margin-left: 20px;
+       }
+       #di{
+        padding-top: -10px;
+        color:black;
+        text-align: center;
+        animation-name: dis;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        position: relative;
+        top: 0;
+       }
+       @keyframes dis {
+        to{
+            top: 10px;
+            opacity: 0;
+        }
+       }
+       #di1{
+        color:black;
+        font-size: 12px;
+        text-align: center;
+        animation-name: dis1;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-delay: 1.5s;
+        position: relative;
+        top: 0;
+        opacity: 0;
+       }
+       @keyframes dis1 {
+        from{
+            top: 0;
+            opacity: 1;
+        }
+        to{
+            top: 15px;
+            opacity: 0;
+            
+        }
+    }
+    .ksr{
+        margin-left: 125px;
+        margin-top: -255px
+    }
+    .tg{
+        margin-left: 450px;
+        margin-top: -250px
+    }
+    .sb{
+        margin-left: 780px;
+        margin-top: -250px
+    }
+     #ksr{
+        color:black;
+        text-align: center;
+        animation-name: dis;
+        animation-duration:3s;
+        animation-iteration-count: infinite;
+        position: relative;
+        top: 0;
+       }
+       @keyframes dis {
+        to{
+            top: 10px;
+            opacity: 0;
+        }
+    }
+
+     #ksr1{
+        color:black;
+        font-size: 12px;
+        text-align: center;
+        animation-name: dis1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 1.5s;
+        position: relative;
+        top: 0;
+        opacity: 0;
+       }
+       @keyframes dis1 {
+        from{
+            top: 0;
+            opacity: 1;
+        }
+        to{
+            top: 15px;
+            opacity: 0;
+            
+        }
+    }
+    .rs{
+        margin-top: -250px;
+        margin-left: 340px;
+    }
+    .tes{
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .sri{
+        margin-left: 200px;
+        border-radius: 10px;
+        border: 1px solid;
+        width: 230px;
+        height: 150px;
+    }
+    .sri1{
+        margin-left: 450px;
+        margin-top: -150px;
+        border-radius: 10px;
+        border: 1px solid;
+        width: 230px;
+        height: 150px;
+    }
+    .sri2{
+        margin-left: 700px;
+        margin-top: -150px;
+        border-radius: 10px;
+        border: 1px solid;
+        width: 230px;
+        height: 150px;
+    }
+    #lim{
+        margin-top: 50px;
+        margin-left: 100px;
+        object-fit: cover;
+        display: block;
+        border-radius: 10%;
+    }
+    .txt{
+        margin-top: -220px;
+        margin-left: 200px;
+        color: white;
+    }
+    .play{
+       width: 600px;
+       height: 200px;
+       background: rgba(255, 255, 255, 0.2);
+       backdrop-filter: blur(10px);
+       -webkit-backdrop-filter: blur(10px);
+       border: 1px solid rgba(255, 255, 255, 0.3);
+       margin-top: -170px;
+       margin-left: 800px;
+    }
+
+    #play1{
+        padding-left: 50px;
+        padding-top: 30px;
+    }
+    .apple{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .qr{
+        padding-left: 420px;
+        position: relative;
+        top: -170px;
+    }
+    .lc{
+        padding: 10px 5%;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .uu{
+        border: 1px solid;
+        width: 80%;
+        height: 100px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+    .uu img{
+        width: 50px;
+        padding-top: 30px;
+        margin-left: 10px;
+    }
+    .uu a{
+        left: 700px;
+        position: relative;
+        top: -95px;
+        background-color: red;
+        padding: 10px 100px 10px 100px;
+        border-radius: 20px;
+        color: white;
+    }
+    .am{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+    }
+    #am1:hover{
+        background-color: burlywood;
+        border-radius: 5px;
+    }
+    #am2:hover{
+        background-color: burlywood;
+        border-radius: 5px;
+    }
+    #am3:hover{
+        background-color: burlywood;
+        border-radius: 5px;
+    }
+    #am4:hover{
+        background-color: burlywood;
+        border-radius: 5px;
+    }
+    .le{
+        background-color: whitesmoke;
+        height: 80vh;
+        width: 100%;
+    }
+    .reb{
+        margin-top: 50px;
+    }
+    .reb p{
+        padding: 10px;
+    }
+    .reb a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb a:hover{
+        background-color: aqua;
+        border-radius: 5px;
+    }
+    .reb2{
+        margin-top: -260px;
+        margin-left:210px;
+    }
+    .reb2 p{
+        padding: 10px;
+    }
+    .reb2 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb2 a:hover{
+        background-color: bisque;
+        border-radius: 5px;
+    }
+    .reb3{
+        margin-top: -210px;
+        margin-left: 360px;
+    }
+    .reb3 p{
+        padding: 10px;
+    }
+    .reb3 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb3 a:hover{
+        background-color: greenyellow;
+        border-radius: 5px;
+    }
+    .reb4{
+        margin-top: -445px;
+        margin-left: 560px;
+    }
+    .reb4 p{
+        padding: 10px;
+    }
+    .reb4 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb4 a:hover{
+        background-color: violet;
+        border-radius: 5px;
+    }
+    .reb5{
+        margin-top: -210px;
+        margin-left: 780px;
+    }
+    .reb5 p{
+        padding: 10px;
+    }
+    .reb5 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb5 a:hover{
+        background-color: aquamarine;
+        border-radius: 5px;
+    }
+    .reb6{
+        margin-top: -510px;
+        margin-left: 950px;
+    }
+    .reb6 p{
+        padding: 10px;
+    }
+    .reb6 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb6 a:hover{
+        background-color: cadetblue;
+        border-radius: 5px;
+    }
+    .reb7{
+        margin-top: -145px;
+        margin-left: 1130px;
+    }
+    .reb7 p{
+        padding: 10px;
+    }
+    .reb7 a{
+        text-decoration: underline;
+        padding: 5px;
+    }
+    .reb7 a:hover{
+        background-color: cornflowerblue;
+        border-radius: 5px;
+    }
+    .end{
+        border: 1px solid transparent;
+        height: 100px;
+        width: 80%;
+        margin-left: 170px;
+    }
+    .eim{
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        margin-top: -50px;
+    }
+    
